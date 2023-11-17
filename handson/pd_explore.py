@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv('../datasets/churn_dataset.csv')
 
-print("********* base function in python ************")
+print("********* base function in pandas ************ START")
 # index of the Tabular data
 print(df.index)
 
@@ -33,7 +33,7 @@ df_20 = df.head(20)
 
 print(df_20)
 
-print("********* base function in python ************")
+print("********* base function in pandas ************ ENDS")
 
 print ("************ The ways of adding and deleting -columns in df********* START")
 df_20.insert(2,"custid" ,range(100,100+len(df_20)))
